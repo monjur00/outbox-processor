@@ -5,6 +5,6 @@ import com.outbox.outboxprocessor.model.OutboxEvent;
 @FunctionalInterface
 public interface BaseEventListener {
 
-    void onEvent(OutboxEvent event);
+    void onEvent(final OutboxEvent event);
 
 }
